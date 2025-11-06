@@ -1,0 +1,34 @@
+### Create a new student
+POST http://localhost:8080/students
+Content-Type: application/json
+
+{
+  "name": "Alex",
+  "sci_grade": "A",
+  "math_grade": "B+",
+  "eng_grade": "A-",
+  "gym_grade": "B"
+}
+### Get Student GPA
+GET http://localhost:8080/students/1/gpa
+
+### Get all students
+GET http://localhost:8080/students
+
+### Get single student by ID
+GET http://localhost:8080/students/1
+
+### Update student
+PUT http://localhost:8080/students/1
+Content-Type: application/json
+
+{
+  "name": "Alex Smith",
+  "sci_grade": "A-",
+  "math_grade": "A",
+  "eng_grade": "B+",
+  "gym_grade": "A"
+}
+
+### Delete student
+DELETE http://localhost:8080/students/1
