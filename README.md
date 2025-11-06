@@ -38,7 +38,7 @@ Update your src/main/resources/application.properties file:
   
   spring.jpa.hibernate.ddl-auto=update
   
+  spring.jpa.show-sql=true
+
 
 Application will start on localhost 8080, Postgresql should be set to 5432
-
-spring.jpa.show-sql=true
