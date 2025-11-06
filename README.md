@@ -27,11 +27,17 @@ IntelliJ IDEA (recommended IDE)
 Set up database using postgresql
 
 Update your src/main/resources/application.properties file:
+
   spring.application.name=StudentGrades
+  
   spring.datasource.url=jdbc:postgresql://localhost:5432/grades_db
+  
   spring.datasource.username=postgres
+  
   spring.datasource.password=your_password
+  
   spring.jpa.hibernate.ddl-auto=update
+  
 
 Application will start on localhost 8080, Postgresql should be set to 5432
 
