@@ -3,9 +3,13 @@ Student grade and gpa database that stores student name along with letter grades
 🚀 Features
 
 ✅ Create, read, update, and delete student records
+
 ✅ Automatically calculate GPA based on letter grades (A–F)
+
 ✅ PostgreSQL database integration
+
 ✅ RESTful API endpoints for all operations
+
 ✅ Built using modern Spring Boot practices (JPA, Service, Controller layers)
 
 🧩 Technologies Used
